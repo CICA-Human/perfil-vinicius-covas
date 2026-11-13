@@ -12,7 +12,7 @@
 tratamiento: Dr.
 nombre: Vinicius Covas
 cargo: Profesor investigador
-adscripcion: Human & NonHuman Communication Lab (CICA), Facultad de Comunicación
+adscripcion: Centro de Investigación para la Comunicación Aplicada (CICA) y Human & NonHuman Communication Lab, Facultad de Comunicación
 institucion: Universidad Anáhuac México
 
 # Una sola oración que resuma tu línea de pensamiento.
@@ -38,7 +38,7 @@ temas:
 # Tu semblanza. Separa los párrafos con una línea en blanco.
 # Usa *asteriscos* para poner títulos de obras en cursivas.
 bio: |
-  Doctor en Comunicación por la Universidad Anáhuac México, donde es profesor investigador de la Facultad de Comunicación y miembro del Human & NonHuman Communication Lab del CICA. Ahí lidera el AI Society Lab, una sociedad simulada de agentes de inteligencia artificial que se observa a lo largo del tiempo, con protocolo prerregistrado y datos abiertos.
+  Doctor en Comunicación por la Universidad Anáhuac México, donde es profesor investigador de la Facultad de Comunicación y miembro tanto del Centro de Investigación para la Comunicación Aplicada (CICA) como del Human & NonHuman Communication Lab. Ahí lidera el AI Society Lab, una sociedad simulada de agentes de inteligencia artificial que se observa a lo largo del tiempo, con protocolo prerregistrado y datos abiertos.
 
   Su investigación trata a los modelos de lenguaje como actores comunicativos. Estudia cómo cambian su forma de hablar cuando se saben observados, cómo un solo agente negativo puede concentrar la atención de un grupo, y qué ocurre con la agencia humana cuando la evaluación académica se apoya en la IA, tema del que surgió el marco LOGOS.
 

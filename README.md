@@ -1,6 +1,6 @@
 # Perfil de Vinicius Covas
 
-Contenido de su página de investigador del CICA, Facultad de Comunicación, Universidad Anáhuac México.
+Contenido de su página de investigador del Centro de Investigación para la Comunicación Aplicada (CICA), Facultad de Comunicación, Universidad Anáhuac México.
 
 **Página publicada:** https://investigadores-cica.pages.dev/vinicius-covas
 
