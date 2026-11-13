@@ -1,0 +1,20 @@
+# Revisa perfil.yml en cada cambio y en cada propuesta (pull request).
+# Si algo está mal, GitHub lo marca en rojo y explica qué corregir.
+name: Revisar perfil
+on:
+  push:
+    paths: ["perfil.yml", "*.jpg", "*.jpeg", "*.png", "*.webp", ".github/**"]
+  pull_request:
+    paths: ["perfil.yml", "*.jpg", "*.jpeg", "*.png", "*.webp", ".github/**"]
+permissions:
+  contents: read
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml==6.0.2
+      - run: python .github/validar_perfil.py

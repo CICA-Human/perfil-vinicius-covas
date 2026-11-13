@@ -1,0 +1,155 @@
+# ─────────────────────────────────────────────────────────────
+#  TU PÁGINA DE INVESTIGADOR
+#  Este es el ÚNICO archivo que necesitas editar.
+#  Página publicada: https://investigadores-cica.pages.dev/vinicius-covas
+#  Este repositorio es público: no pongas datos personales
+#  (celular, domicilio particular). Todo queda en el historial.
+#  Reglas: respeta los espacios al inicio de cada línea,
+#  y deja entre comillas los textos que lleven dos puntos (:).
+#  Si un dato no aplica, déjalo vacío ("") y no aparecerá.
+# ─────────────────────────────────────────────────────────────
+
+tratamiento: Dr.
+nombre: Vinicius Covas
+cargo: Profesor investigador
+adscripcion: Human & NonHuman Communication Lab (CICA), Facultad de Comunicación
+institucion: Universidad Anáhuac México
+
+# Una sola oración que resuma tu línea de pensamiento.
+frase: Estudia cómo se comunican los sistemas de inteligencia artificial, entre sí y con las personas, y qué comportamientos sociales surgen cuando muchos agentes deliberan juntos.
+
+# Foto: pega el enlace de tu foto, o sube la imagen a este repositorio y escribe aquí su nombre (ej. foto.jpg).
+# Se muestra en círculo; funciona mejor una foto cuadrada con la cara al centro.
+foto: "https://humannonhumanlab.com/__l5e/assets-v1/0da6bb11-1a86-4cd1-8d2d-4238ec562f17/vinicius-covas.jpg"
+# Encuadre de la foto (opcional): foto_zoom acerca la imagen (1 = sin acercar);
+# foto_posicion dice qué parte se ve: horizontal y vertical, en % ("50% 0%" = centro, arriba).
+foto_zoom: 1.45
+foto_posicion: "52% 0%"
+
+# Color de acento de tu página (opcional).
+color: "#F29B66"
+
+temas:
+  - Inteligencia artificial y comunicación
+  - Sistemas multiagente
+  - Agencia humana
+  - Cultura digital y plataformas
+
+# Tu semblanza. Separa los párrafos con una línea en blanco.
+# Usa *asteriscos* para poner títulos de obras en cursivas.
+bio: |
+  Doctor en Comunicación por la Universidad Anáhuac México, donde es profesor investigador de la Facultad de Comunicación y miembro del Human & NonHuman Communication Lab del CICA. Ahí lidera el AI Society Lab, una sociedad simulada de agentes de inteligencia artificial que se observa a lo largo del tiempo, con protocolo prerregistrado y datos abiertos.
+
+  Su investigación trata a los modelos de lenguaje como actores comunicativos. Estudia cómo cambian su forma de hablar cuando se saben observados, cómo un solo agente negativo puede concentrar la atención de un grupo, y qué ocurre con la agencia humana cuando la evaluación académica se apoya en la IA, tema del que surgió el marco LOGOS.
+
+  Su tesis doctoral analizó la experiencia de usuario en cursos masivos en línea (MOOC) en México, Brasil, Estados Unidos y Canadá. Es autor de *Criando Marcas na Era da Distração* (2020) y ponente TEDx.
+
+distinciones:
+  - Ponente TEDx
+  - Claude Community Leader, Ciudad de México (Anthropic)
+
+# ── PERFILES ACADÉMICOS ──────────────────────────────────────
+# Pega el enlace completo. En ORCID basta el número.
+perfiles:
+  orcid: 0000-0001-9948-2940
+  google_scholar: https://scholar.google.com/citations?user=9vNZUs0AAAAJ
+  scopus: https://www.scopus.com/authid/detail.uri?authorId=60544996200
+  researchgate: https://www.researchgate.net/profile/Vinicius-Covas
+  academia_edu: ""
+  linkedin: ""
+  sitio_web: https://aisocietylab.com
+
+contacto:
+  correo: humancommlab@anahuac.mx
+  direccion: Av. Universidad Anáhuac 46, Lomas Anáhuac, Huixquilucan, Estado de México, 52786
+
+# ── PUBLICACIONES ────────────────────────────────────────────
+# Copia un bloque completo (desde el guion "-") para agregar una nueva.
+# tipo: libro | articulo | capitulo | ponencia | preprint | editorial | otro
+# Para resaltar una obra en grande, agrégale: destacada: true
+publicaciones:
+  - anio: 2026
+    tipo: articulo
+    titulo: "Infraestructuras digitales, sentido y agencia: una lectura comunicacional de las tecnologías emergentes"
+    autores: V. Covas y L. G. Vázquez-Rodríguez
+    fuente: Comunicación y Medios (Universidad de Chile)
+    enlace: https://humannonhumanlab.com/es/publicaciones/infraestructuras-digitales-sentido-y-agencia
+
+  - anio: 2026
+    tipo: ponencia
+    titulo: How Communication Modalities Shape Topology in Generative Multi-Agent Systems
+    autores: V. Covas
+    fuente: ICLR 2026, MALGAI Workshop
+    enlace: https://iclr.cc/virtual/2026/10018372
+    destacada: true
+    resumen: Propone un banco de pruebas abierto para medir cómo la identidad, el afecto y el encuadre de los mensajes cambian la estructura de las conversaciones entre agentes de IA, a partir de 97 sesiones y 3,869 mensajes.
+
+  - anio: 2026
+    tipo: preprint
+    titulo: "AI Knows When It's Being Watched: Functional Strategic Action and Contextual Register Modulation in Large Language Models"
+    autores: V. Covas y J. A. Hidalgo Toledo
+    fuente: arXiv:2605.15034
+    enlace: https://arxiv.org/abs/2605.15034
+
+  - anio: 2026
+    tipo: preprint
+    titulo: "The Spiral of Attention: How Disruptive Agents Centralize Multi-Agent AI Deliberation Networks"
+    autores: V. Covas
+    fuente: OSF Preprints
+    enlace: https://humannonhumanlab.com/es/publicaciones/spiral-of-attention-multi-agent-deliberation
+
+  - anio: 2026
+    tipo: preprint
+    titulo: "The Negativity Magnet: How Affective Disruption Restructures Discursive Power in AI Collectives"
+    autores: V. Covas
+    fuente: SSRN
+    enlace: https://doi.org/10.2139/ssrn.6226560
+
+  - anio: 2026
+    tipo: preprint
+    titulo: "The LOGOS Framework: A Five-Level Taxonomy of Human Cognitive Agency in AI-Assisted Assessment"
+    autores: V. Covas
+    fuente: EdArXiv (OSF Preprints)
+    enlace: https://humannonhumanlab.com/es/publicaciones/logos-framework-human-cognitive-agency
+
+  - anio: 2026
+    tipo: preprint
+    titulo: "When AI Commands vs. Suggests: Cultural Moderators of Algorithmic Compliance"
+    autores: V. Covas
+    fuente: SSRN
+    enlace: https://humannonhumanlab.com/es/publicaciones/when-ai-commands-vs-suggests
+
+  - anio: 2026
+    tipo: preprint
+    titulo: "From 50K to 8.2 Million in 24 Hours: Vozinha's Algorithmic Consecration and the Multilingual Making of World Cup Visibility"
+    autores: V. Covas
+    fuente: arXiv
+    enlace: https://humannonhumanlab.com/es/publicaciones/vozinha-algorithmic-consecration-world-cup
+
+  - anio: 2020
+    tipo: libro
+    titulo: Criando Marcas na Era da Distração
+    autores: V. Covas
+    fuente: ""
+    enlace: ""
+
+  - anio: 2020
+    tipo: articulo
+    titulo: "Estudio sobre el uso de la gamificación en plataformas de e-learning: teorías de comportamiento, tasas de participación y experiencias de uso"
+    autores: V. Covas Alves
+    fuente: Sintaxis (Universidad Anáhuac México)
+    enlace: https://humannonhumanlab.com/es/publicaciones/gamificacion-en-plataformas-de-e-learning
+
+# Si lo cambias a true, la página también trae tus publicaciones
+# directamente de tu registro público de ORCID y las suma a esta lista.
+orcid_automatico: false
+
+# ── FORMACIÓN ────────────────────────────────────────────────
+formacion:
+  - anio: 2024
+    titulo: Doctorado en Comunicación
+    institucion: Universidad Anáhuac México
+    nota: Tesis sobre la experiencia de usuario en MOOC en México, Brasil, Estados Unidos y Canadá
+
+# Fecha de la última revisión de esta página (año-mes-día).
+actualizado: "2026-11-13"
