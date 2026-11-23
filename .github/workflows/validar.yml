@@ -1,5 +1,7 @@
-# Revisa perfil.yml en cada cambio y en cada propuesta (pull request).
-# Si algo está mal, GitHub lo marca en rojo y explica qué corregir.
+# Revisa perfil.yml en cada cambio.
+# Si un cambio guardado en main tiene errores, regresa el repositorio a la versión
+# anterior para que la página publicada nunca quede rota, y marca la revisión en rojo
+# (GitHub avisa por correo a quien hizo el cambio).
 name: Revisar perfil
 on:
   push:
@@ -7,14 +9,33 @@ on:
   pull_request:
     paths: ["perfil.yml", "*.jpg", "*.jpeg", "*.png", "*.webp", ".github/**"]
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: revisar-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   revisar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install pyyaml==6.0.2
-      - run: python .github/validar_perfil.py
+      - name: Revisar perfil.yml
+        run: python .github/validar_perfil.py
+      - name: Regresar a la versión anterior si hay errores
+        if: failure() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.before != '0000000000000000000000000000000000000000'
+        env:
+          ANTES: ${{ github.event.before }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout "$ANTES" -- perfil.yml
+          python .github/validar_perfil.py
+          git add perfil.yml
+          git commit -m "Regresa perfil.yml a la versión anterior: el último cambio tenía errores"
+          git push origin HEAD:main
+          echo "::error::El cambio tenía errores y se regresó a la versión anterior. Revisa el paso 'Revisar perfil.yml' para ver qué corregir."
